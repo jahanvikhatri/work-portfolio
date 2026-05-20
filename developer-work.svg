@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1080" role="img" aria-labelledby="title desc">
+  <title id="title">AI generated software developer working</title>
+  <desc id="desc">A minimal warm illustration of a woman software developer working at a laptop in a glass studio setting.</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="760" y2="980" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff8ef"/>
+      <stop offset=".48" stop-color="#ead2bd"/>
+      <stop offset="1" stop-color="#c79a70"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="360" y1="150" x2="540" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f6d6b8"/>
+      <stop offset="1" stop-color="#c58358"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="305" y1="110" x2="580" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#342119"/>
+      <stop offset="1" stop-color="#15100f"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="210" y1="505" x2="720" y2="930" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff4e9"/>
+      <stop offset=".45" stop-color="#d5a77e"/>
+      <stop offset="1" stop-color="#182231"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="248" y1="620" x2="710" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#203245"/>
+      <stop offset="1" stop-color="#0b121d"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#4b3527" flood-opacity=".22"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1080" rx="42" fill="url(#bg)"/>
+  <g opacity=".42">
+    <path d="M120 190c145-80 280-82 405-8 92 55 178 60 258 17" fill="none" stroke="#fffaf4" stroke-width="2"/>
+    <path d="M136 835c142 42 280 22 414-60 88-54 170-70 246-48" fill="none" stroke="#8d6547" stroke-width="2" opacity=".3"/>
+    <circle cx="190" cy="235" r="92" fill="#fffaf4" opacity=".28"/>
+    <circle cx="728" cy="302" r="118" fill="#fffaf4" opacity=".18"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <path d="M458 138c-80 0-151 57-163 137-12 77 22 147 87 180l-10 88h169l-9-91c58-34 96-98 96-165 0-88-74-149-170-149Z" fill="url(#hair)"/>
+    <ellipse cx="455" cy="300" rx="114" ry="132" fill="url(#skin)"/>
+    <path d="M339 277c42-19 77-57 95-103 47 67 109 107 191 119-7-104-78-173-173-173-84 0-151 65-161 149 14 10 29 12 48 8Z" fill="url(#hair)"/>
+    <path d="M392 360c38 29 83 30 127 0" fill="none" stroke="#7a4530" stroke-width="9" stroke-linecap="round" opacity=".58"/>
+    <circle cx="410" cy="305" r="9" fill="#3b251d"/>
+    <circle cx="503" cy="305" r="9" fill="#3b251d"/>
+    <path d="M408 490h98l22 74H386l22-74Z" fill="#c58358"/>
+    <path d="M205 1000c28-286 118-452 250-452 137 0 223 166 254 452H205Z" fill="url(#shirt)"/>
+    <path d="M267 642c38 72 99 110 184 112 88 1 155-40 200-122" fill="none" stroke="#fffaf4" stroke-width="8" opacity=".32"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <path d="M180 696h540c34 0 62 28 62 62v210H242c-34 0-62-28-62-62V696Z" fill="url(#screen)"/>
+    <path d="M227 745h305" stroke="#ead2bd" stroke-width="18" stroke-linecap="round" opacity=".9"/>
+    <path d="M227 798h430" stroke="#fff8ef" stroke-width="12" stroke-linecap="round" opacity=".52"/>
+    <path d="M227 843h254" stroke="#c79567" stroke-width="12" stroke-linecap="round" opacity=".75"/>
+    <path d="M640 800l34 34-34 34M583 800l-34 34 34 34" fill="none" stroke="#ead2bd" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M135 968h626c37 0 67 30 67 67v13H202c-37 0-67-30-67-67v-13Z" fill="#fffaf4" opacity=".92"/>
+  </g>
+
+  <g opacity=".72">
+    <circle cx="704" cy="174" r="52" fill="#fff8ef"/>
+    <path d="M703 114v-42M703 276v-42M643 174h-42M805 174h-42" stroke="#fff8ef" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>
