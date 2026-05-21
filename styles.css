@@ -797,7 +797,7 @@ body.dark-mode .toggle-icon {
 }
 
 body:not(.dark-mode) .project-frame.active {
-  background: linear-gradient(145deg, rgba(255, 252, 248, 0.98), rgba(239, 228, 217, 0.9));
+  background: linear-gradient(145deg, rgba(248, 249, 250, 0.98), rgba(230, 232, 235 , 0.9));
 }
 
 .project-frame.prev-slide {
